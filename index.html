@@ -187,6 +187,8 @@
         UA.then(sdk => {
     sdk.plugins
         .load('registration-page', 'https://aswpsdkus.com/notify/v1/ua-registration-page.min.js', {
+            auto: false,
+            
             i18n: {
                 fr: {
                     title: 'Autoriser les notifications Web',
