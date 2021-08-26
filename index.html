@@ -132,6 +132,8 @@
         }
 
     }
+    </script>
+    <!-- <script>
 
     UA.then(sdk => {
         sdk.plugins.load('html-prompt', 'https://aswpsdkus.com/notify/v1/ua-html-prompt.min.js', {
@@ -143,17 +145,41 @@
             askAgainDelay: 30,
             i18n: {
                
-                     en: {
-                        title: 'Kick your Boredom',
-                        message: 'Subscribe to be notified of fun this to kill your boredom and indecison!',
-                        accept: 'yes! lets have fun!',
-                        button: 'no i love boredom'
-                               }
-
+                 en:{
+                    title: 'Kick your Boredom',
+                    message: 'Subscribe to be notified of fun this to kill your boredom and indecison!',
+                    accept: 'yes! lets have fun!',
+                    button: 'no i love boredom'
+                     }
             
         })
             .then(plugin => plugin.prompt())
-    })
+    };
+    </script> -->
+
+    <script>
+        UA.then(sdk => {
+            sdk.plugins.load('html-prompt', 'https://aswpsdkus.com/notify/v1/ua-html-prompt.min.js', {
+                appearDelay: 5000, 
+                disappearDelay: 17000,
+                position: bottom,
+                askAgainDelay: 300,
+
+                i18n: {
+               
+               en:{
+                  title: 'Kick your Boredom',
+                  message: 'Subscribe to be notified of fun this to kill your boredom and indecison!',
+                  accept: 'yes! lets have fun!',
+                  button: 'no i love boredom'
+                   }
+          
+      }
+
+
+            })
+                .then(plugin => plugin.prompt())
+        })
     </script>
 
 </body>
