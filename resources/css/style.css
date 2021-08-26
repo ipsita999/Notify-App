@@ -1,0 +1,457 @@
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    background-color: #fff;
+    color: #fff;
+    font-family: 'Barlow','Arial', 'san-serif';
+    font-size: 20px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(241, 241, 239);
+}
+/* ----------------------------------------------- */
+/* HERO*/
+/* ----------------------------------------------- */
+/* .hero{
+     background-attachment: fixed; 
+    opacity: 0;
+    animation: fadeInUP  1s ease-in 1s both;
+    -webkit-animation: fadeInUp 1s ease-in 1s both; 
+} */
+
+ header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-size: 80%;
+    background-position: center ;
+    height: 100vh; 
+    overflow: hidden;
+    background-color: rgb(241, 241, 239);
+    /* opacity: 0;
+    animation: fadeInUP  1s ease-in 1s both;
+    -webkit-animation: fadeInUp 1s ease-in 1s both; */
+
+ }
+.hero-pic {
+    display: flex;
+    height:95%;
+    background-position: center;
+    width: 95%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0,0,0,0.55)), url(hero\ pic.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: flex-start;
+    justify-content: center;
+    /* opacity: 0; */
+    opacity: 0;
+    animation: fadeInUP  1s ease-in 1s both;
+    -webkit-animation: fadeInUp 1s ease-in 1s both;
+  
+}
+ 
+ 
+/* .hero-pic img {
+    /* display: flex; */
+    /* width: 80%;
+    align-items: center; */
+   
+
+/* .hero-pic:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0,0,0,0.55));
+   
+} */
+
+h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 340%;
+    font-weight: 300;
+    font-family: 'Lexend Mega', sans-serif;
+    padding-top: 8%;
+    Opacity: 0;
+    animation: fadeInUP 1s ease-in 1s both;
+    -webkit-animation: fadeInUp 1s ease-in 1s both;
+}
+    
+    /* padding-bottom: 1%; */
+
+
+h2{
+    margin: 0;
+    color: #ffffff;
+    font-size: 200%;
+    font-weight: 200;
+    font-family: 'Dawning of a New Day', cursive;
+    opacity: 0;
+    animation: fadeInUP 1s ease-in 1s both;
+    -webkit-animation: fadeInUp 1s ease-in 1s both;
+}
+
+
+.header-text {
+    position: relative;
+    width: 100%;
+    top: 42%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+.arrowButton {
+    /* width 20%; */
+    right: 50;
+    bottom: 0;
+    padding-bottom: 10%;
+    position: fixed;
+    cursor: grab;
+}
+/* ----------------------------------------------- */
+/* NAVIGATION BAR */
+/* ----------------------------------------------- */
+
+nav {    
+    position: fixed;
+    flex: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 5px rgb(170, 168, 165);
+    z-index: 1;
+  
+}
+.main-nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+    background:rgba(255, 255, 255, 1);
+    
+}
+
+.main-nav li {
+    display: inline-block;
+    text-align: center;
+    /* margin-left: 1px;  */
+    margin-right: 21px;
+}
+.main-nav li img {
+    margin-right: 1000px;
+    
+  
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 2px 0px;
+    color: #0f0e0e;
+    text-decoration: none;
+    font-weight: 400; 
+    text-transform: uppercase;
+    font-size: 75%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #131212;
+
+} 
+
+
+/* ----------------------------------------------- */
+/* HOW IT WORKS */
+/* ----------------------------------------------- */
+
+.howto {
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* margin: auto 0; */
+    padding-top: 6%;
+    color: #0f0e0e;
+    font-size: 340%;
+    font-weight: 300;
+    text-align: center;
+}
+
+.steps-container {
+    padding: 12vh 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: flex-end;
+    justify-content: center;
+    align-self: center;
+    flex-flow: row wrap;
+    justify-content: center; */
+}
+
+.step {
+    display: flex;
+    flex-direction: row;
+    width: 27vw;
+    height: 55vh;
+    align-items: flex-end;
+    
+    /* border: 2px solid #0f0e0e;
+    */
+
+}
+.one {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(step1pic.jpg);
+    background-size: cover;
+    /* box-shadow: 0px 0px 0px 40px #000000; */
+    
+}
+.two{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(step2pic.jpg);
+    background-size: cover;
+}
+.three {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(step3pic.jpg);
+    background-size: cover;
+}
+
+
+h4{
+    font-family: 'Barlow Condensed','Arial', 'san-serif';
+    font-size: 500%;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+  
+}
+
+h4 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ----------------------------------------------- */
+/* SHOP*/
+/* ----------------------------------------------- */
+
+.shopsec{
+    height:100vh;
+    background-color:rgb(241, 241, 239);
+    padding-bottom:200px;
+    margin-bottom: 9%;
+}
+.shopheader{
+    display: flex;
+    align-items: center;
+    padding-bottom: 3%;
+    
+}
+
+h5 {
+    flex: auto;
+    justify-content: center;
+    /* align-items: flex-start; */
+    /* margin: auto 0; */
+    padding-top: 5%;
+    /* margin: 5% 0% 5% 0%; */
+    color: #0f0e0e;
+    font-size: 340%;
+    font-weight: 300;
+    text-align: center;
+
+}
+.shopgrid,
+.shopgrid2 {
+    /* padding: 12vh 0; */
+    text-align: center;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+    /* border: 2px solid #0f0e0e; */
+    width:100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.shopgrid2 {
+    /* padding-bottom: 10%; */
+}
+.sgrid {
+    /* display: flex; */
+    flex: auto;
+    /* flex-direction: row; */
+    width: 35vw;
+    height: 35vh;
+    align-items: flex-end;
+    border: 2px solid #0f0e0e;
+    flex-flow: row wrap;
+}
+
+.sgrid img {
+    opacity: 0.7;
+    background: cover;
+    width:92%;
+    height: 100%;
+    transform: scale(1.10);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.sgrid img:hover {
+    transform: scale(1.18);
+    opacity: 1;
+}
+
+
+/* ----------------------------------------------- */
+/* CONTACT ME*/
+/* ----------------------------------------------- */
+
+.contact{
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.671),rgba(0, 0, 0, 0.671)),url(contactpic.jpg);
+    background-size: cover;
+    background-position: center ;
+    align-items: flex-end;
+    height: 50vh;
+    /* margin-top: 20%; */
+    /* padding-top: 20%; */
+}
+
+button {
+    border: 2px solid #fff ;
+    padding: 20px ;
+    margin-top: 5%;
+    width: 20%;
+    background: transparent;
+    color: #fff;
+    font-size: 120%;
+    text-align: center;
+    cursor: pointer;
+}
+#btn {
+    margin: 3%;
+    font-size: 180%;
+    font-weight: 300;
+}
+
+    
+
+
+/* ----------------------------------------------- */
+/* ANIMATION*/
+/* ----------------------------------------------- */
+
+/* ---------HEADER FADE IN UP---------------- */
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+
+/* ----------------------------------------------- */
+/* MEDIA QUERIES*/
+/* ----------------------------------------------- */
+
+@media all and (max-width: 500px) {
+/* --------------HEADER----------------- */
+h1 {
+    font-size: 250%;
+    font-weight: 400;
+}
+/* --------------CONTACT SECTION----------------- */
+.contact {
+    align-items: flex-end;
+    height: 30vh;
+}
+
+button {
+    width: 40%;
+    font-size: 120%;
+    margin-top: 10%;
+    text-align: center;
+}
+#btn {
+    font-size: 200%;
+
+}
+
+
+/* --------------SHOP SECTION----------------- */
+
+
+
+.shopgrid2{
+display: none;
+}
+.shopgrid {
+    flex: auto;
+    flex-wrap: wrap;
+    width: 100mw;
+    
+}
+
+@media (max-width: 1140px) {
+    .contact {
+        align-items: flex-end;
+        height: 30vh;
+    }
+    
+    button {
+        width: 40%;
+        font-size: 140%;
+        margin-top: 10%;
+    }
+    #id {
+        font-size: 190%;
+    
+    }
+    
+}
+
+
+
+/* linear-gradient(rgba(0, 0, 0, 0.55),rgba(0,0,0,0.55)); */
