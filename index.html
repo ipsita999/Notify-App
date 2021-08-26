@@ -136,11 +136,19 @@
     UA.then(sdk => {
         sdk.plugins.load('html-prompt', 'https://aswpsdkus.com/notify/v1/ua-html-prompt.min.js', {
             // type: 'bell',
-            // position: 'top-right'
+            position: bottom,
             auto: true,
             appearDelay: 5000, 
             disappearDelay: 17000,
-            askAgainDelay: 30
+            askAgainDelay: 30,
+            i18n: {
+               
+                     en: {
+                        title: 'Kick your Boredom',
+                        message: 'Subscribe to be notified of fun this to kill your boredom and indecison!',
+                        accept: 'yes! lets have fun!',
+                        button: 'no i love boredom'
+                               }
 
             
         })
