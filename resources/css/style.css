@@ -685,7 +685,65 @@ input {
 /* MEDIA QUERIES*/
 /* ----------------------------------------------- */
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
+/* --------------HEADER----------------- */
+h1 {
+    font-size: 250%;
+    font-weight: 400;
+}
+/* --------------CONTACT SECTION----------------- */
+.contact {
+    align-items: flex-end;
+    height: 30vh;
+}
+
+button {
+    width: 40%;
+    font-size: 120%;
+    margin-top: 10%;
+    text-align: center;
+}
+#btn {
+    font-size: 200%;
+
+}
+
+
+/* --------------SHOP SECTION----------------- */
+
+
+
+.shopgrid2{
+display: none;
+}
+.shopgrid {
+    flex: auto;
+    flex-wrap: wrap;
+    width: 100mw;
+    
+}
+
+@media (max-width: 1140px) {
+    .contact {
+        align-items: flex-end;
+        height: 30vh;
+    }
+    
+    button {
+        width: 40%;
+        font-size: 140%;
+        margin-top: 10%;
+    }
+    #id {
+        font-size: 190%;
+    
+    }
+    
+}
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) {
 /* --------------HEADER----------------- */
 h1 {
     font-size: 250%;
