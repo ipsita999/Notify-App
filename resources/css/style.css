@@ -646,6 +646,8 @@ input {
 .airship-alert-message {
     font-size: 16px;
     color: white;
+    color: #0f0e0e;
+    font-weight: 400;
 
 }
 .airship-btn-deny {
