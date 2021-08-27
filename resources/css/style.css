@@ -666,8 +666,8 @@ input {
     font-weight: 500;
     box-shadow: none;
 }
-.airship-btn:last-child {
-    border-radius: none;
+.airship-btn{
+    border-radius: 0px 0px 0px 0px;
 }
 
 
