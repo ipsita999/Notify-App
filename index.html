@@ -221,29 +221,6 @@
 
         }
     </script>
-    <!-- <script>
-
-    UA.then(sdk => {
-        sdk.plugins.load('html-prompt', 'https://aswpsdkus.com/notify/v1/ua-html-prompt.min.js', {
-            // type: 'bell',
-            position: bottom,
-            auto: true,
-            appearDelay: 5000, 
-            disappearDelay: 17000,
-            askAgainDelay: 30,
-            i18n: {
-               
-                 en:{
-                    title: 'Kick your Boredom',
-                    message: 'Subscribe to be notified of fun this to kill your boredom and indecison!',
-                    accept: 'yes! lets have fun!',
-                    button: 'no i love boredom'
-                     }
-            
-        })
-            .then(plugin => plugin.prompt())
-    };
-    </script> -->
 
     <script>
         UA.then(sdk => {
@@ -269,33 +246,7 @@
                 .then(plugin => plugin.prompt())
         })
     </script>
-    <!-- <script>
-        UA.then(sdk => {
-    sdk.plugins
-        .load('registration-page', 'https://aswpsdkus.com/notify/v1/ua-registration-page.min.js', {
-            auto: false,
-            
-            i18n: {
-                fr: {
-                    title: 'Autoriser les notifications Web',
-                    message: 'Souscrivez aux notifications',
-                    bubble: 'Changez la permission pour permettre les notifications',
-                    button: 'Autoriser'
-                },
-                en: {
-                    title: 'Opt in to Web Notifications',
-                    message: 'Subscribe to web notifications by clicking [Allow] in the prompt.',
-                    bubble: 'Unlock permission to allow notifications',
-                    button: 'Allow'
-                }
-                // you can also use locales to set more specific messages
-                // 'en-US': [...],
-                // 'fr-CA':  [...]
-            }
-        })
-        .then(plugin => plugin.open())
-});
-    </script> -->
+
 
 </body>
 
