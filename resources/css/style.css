@@ -619,8 +619,28 @@ input {
 
 
 /* ----------------------------------------------- */
-/* ANIMATION top*/ 
+/* POP-UP NOTIFICATION*/ 
 /* ----------------------------------------------- */
+
+.airship-alert-body {
+    background-color: #0f0e0e;
+    border:3px #ec0a86;
+    /* font-size: 20px; */
+
+}
+.airship-alert-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: 24px;
+    cursor: default;
+    color: #ec0a86;
+}
+
+.airship-alert-message {
+    font-size: 16px;
+
+}
 
 
 /* ----------------------------------------------- */
