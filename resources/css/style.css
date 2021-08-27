@@ -625,10 +625,10 @@ input {
 
 .airship-alert {
     background-color: white;
-    /* border: 3px solid #ec0a86; */
+    border: 3px solid #ec0a86;
 }
 .airship-alert-body {
-    background-color: black;
+    /* background-color: black; */
     /* border:3px solid #ec0a86; */
     /* font-size: 20px; */
 
@@ -649,13 +649,16 @@ input {
 
 }
 .airship-btn-deny {
-    color: black;
-    border-top: 1px solid #eae9e9;
+    background-color: black;
+    /* border-top: 1px solid #eae9e9; */
+    color: #fff;
+    text-shadow: 1.5px 1.5px #ec0a86;
 }
 .airship-btn-accept {
     background: #0048fe;
     color: #fff;
-    box-shadow: 0px 2px 6px 0 rgb(0 0 0 / 20%);
+    text-shadow: 1.5px 1.5px #ec0a86;
+    /* box-shadow: 0px 2px 6px 0 rgb(0 0 0 / 20%); */
     font-weight: 500;
 }
 
