@@ -112,7 +112,7 @@ h2{
     color: #ffffff;
     font-size: 200%;
     font-weight: 200;
-    font-family: 'Dawning of a New Day', cursive;
+    font-family: 'Nanum Brush Script', cursive;
     opacity: 0;
     animation: fadeInUP 1s ease-in 1s both;
     -webkit-animation: fadeInUp 1s ease-in 1s both;
@@ -164,13 +164,15 @@ nav {
     /* background:rgba(255, 255, 255, 1); */
     
 }
-
+.a .nav-space {
+    padding-top: 50px;
+}
 .main-nav li {
     display: inline-block;
     text-align: center;
     /* font-weight: 500; */
     /* margin-left: 1px;  */
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 .main-nav li img {
     /* padding-bottom: 30px; */
@@ -200,8 +202,12 @@ nav {
 
 } 
 .main-nav li a {
-    margin-bottom: 60px;
-    padding-bottom: 100px;
+    /* padding-top: 500px; */
+    /* margin-bottom: 60px; */
+    /* padding-bottom: 100px; */
+}
+a {
+    padding-top: 20px;
 }
 
 
@@ -450,26 +456,47 @@ h5 {
 /* ----------------------------------------------- */
 
 .contact{
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.671),rgba(0, 0, 0, 0.671)),url(contactpic.jpg);
+    background-image: url(https://media.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif);
+
     background-size: cover;
     background-position: center ;
-    align-items: flex-end;
+    /* align-items: flex-end; */
     height: 50vh;
     /* margin-top: 20%; */
     /* padding-top: 20%; */
 }
 
 button {
-    border: 2px solid #fff ;
+    border: 2px solid black ;
     padding: 20px ;
-    margin-top: 5%;
-    width: 20%;
-    background: transparent;
+    /* margin-top: 5%; */
+    width: 30%;
+    color: #ec0a86;
     color: #fff;
-    font-size: 120%;
+    /* color:#0004ff; */
+    /* color:black; */
+    /* opacity: 0.9; */
+    background-color: transparent;
+    /* background-color: rgb(64, 255, 239); */
+
+
+    font-size: 150%;
+    font-weight: 500;
     text-align: center;
     cursor: pointer;
+    border: 4px solid white;
+    text-shadow: 1px 1px white;
+    text-shadow: 2px 2px #0004ff;
+    text-shadow: 1.5px 1.5px #ec0a86;
+    box-shadow: 4px 4px 4px #ec0a86;
+
+
+
+
 }
 #btn {
     margin: 3%;
@@ -548,12 +575,15 @@ input {
   
   #buttonBox {
     text-align:center;
+    /* width: 70%; */
   }
   .story-button{
+      text-align: center;
+      margin: 2%;
     /* margin-left: 10px; */
     /* margin-top: 15px; */
-    width: 90%;
-    height: 50%;
+    width: 100%;
+    /* height: 50%; */
     border: 2px solid #ec0a86;
     box-shadow: 3px 3px 3px #0004ff;
 
