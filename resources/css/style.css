@@ -658,6 +658,7 @@ input {
     color: #fff;
     text-shadow: 1.5px 1.5px #ec0a86;
     box-shadow: none;
+    border-radius: 0px;
 
 }
 .airship-btn-accept {
@@ -666,6 +667,9 @@ input {
     text-shadow: 1.5px 1.5px #ec0a86;
     font-weight: 500;
     box-shadow: none;
+    border-radius: 0px;
+    border-top: 1px solid #eae9e9;
+
 }
 .airship-btn{
     border-radius: 0px 0px 0px 0px;
