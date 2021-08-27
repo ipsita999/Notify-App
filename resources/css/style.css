@@ -626,7 +626,7 @@ input {
 .airship-alert {
     background-color: white;
     border: 5px solid #ec0a86;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px !important;
     
 }
 .airship-alert-body {
@@ -674,7 +674,12 @@ input {
 .airship-btn{
     border-radius: 0px 0px 0px 0px;
 }
-
+.airship-btn:first-child {
+    border-radius: 0 0 0 0px !important;
+}
+.airship-btn:last-child {
+    border-radius: 0 0 0 0px !important;
+}
 
 /* ----------------------------------------------- */
 /* MEDIA QUERIES*/
