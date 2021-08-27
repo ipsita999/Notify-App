@@ -60,8 +60,8 @@ body {
     padding-top: 20px;
     width: 95%;
     width: 100vw;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0,0,0,0.55)), url(https://media.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif);
-    background-image: url(https://media.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0,0,0,0.55)), url(https://media.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif); */
+    /* background-image: url(https://media.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif); */
     background-size: cover;
     background-attachment: fixed;
     align-items: flex-start;
@@ -227,9 +227,8 @@ nav {
     /* padding-bottom: 1%; */
     width: 95%;
     width: 100vw;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0,0,0,0.55)), url(https://media.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif);
-    background-image: url(https://media.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif);
-    /* background-image: url(https://media.giphy.com/media/ZO7vWwaYmeHt8XnZxj/giphy.gif); */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0,0,0,0.55)), url(https://media.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif); */
+    /* background-image: url(https://media.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif); */
     background-size: cover;
     background-attachment: fixed;
 }
