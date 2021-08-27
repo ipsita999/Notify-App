@@ -1,136 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:400,500|Barlow:300,400|Dawning+of+a+New+Day|Laila|Lexend+Mega|Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Barlow+Condensed:400,500|Barlow:300,400|Dawning+of+a+New+Day|Laila|Lexend+Mega|Liu+Jian+Mao+Cao&display=swap"
+        rel="stylesheet">
     <title>Stitched</title>
 </head>
 <script type="text/javascript">
     // 86acbd31cd7c09cf30acb66d2fbedc91daa48b86:1629993102.1400263
-    !function(n,r,e,t,c){var i,o="Promise"in n,u={then:function(){return u},catch:function(n){
-    return n(new Error("Airship SDK Error: Unsupported browser")),u}},s=o?new Promise((function(n,r){i=function(e,t){e?r(e):n(t)}})):u
-    ;s._async_setup=function(n){if(o)try{i(null,n(c))}catch(n){i(n)}},n[t]=s;var a=r.createElement("script");a.src=e,a.async=!0,a.id="_uasdk",
-    a.rel=t,r.head.appendChild(a)}(window,document,'https://aswpsdkus.com/notify/v1/ua-sdk.min.js',
-      'UA', {
-        
+    !function (n, r, e, t, c) {
+        var i, o = "Promise" in n, u = {
+            then: function () { return u }, catch: function (n) {
+                return n(new Error("Airship SDK Error: Unsupported browser")), u
+            }
+        }, s = o ? new Promise((function (n, r) { i = function (e, t) { e ? r(e) : n(t) } })) : u
+            ; s._async_setup = function (n) { if (o) try { i(null, n(c)) } catch (n) { i(n) } }, n[t] = s; var a = r.createElement("script"); a.src = e, a.async = !0, a.id = "_uasdk",
+                a.rel = t, r.head.appendChild(a)
+    }(window, document, 'https://aswpsdkus.com/notify/v1/ua-sdk.min.js',
+        'UA', {
+
         // Only needed when used on insecure hosts:
         // secureIframeUrl: 'https://your.secure.domain/path/to/web-push-secure-bridge.html',
-    
+
         vapidPublicKey: 'BJFkIY_uWs0825z_oaF_v_L6vCEnp6iBQ-rnDIurhLkyN8ZdLf0UVij41hv6Sqmg1Anz5aK1GuFk3i1IXw1tsvo=',
         appKey: 'KJlTEOG7SESw9wJQ9sH92g',
         token: 'MTpLSmxURU9HN1NFU3c5d0pROXNIOTJnOmExQ1FYLU51aDFGZGppVldfOUV0QTVBTjJqZjd2VFpUQ1FxX1NrZFU4OGM'
-      });
-    
-    </script>
-    
-<body> 
-    <div class = "hero" id="home">
-    <nav>
+    });
+
+</script>
+
+<body>
+    <div class="hero" id="home">
+        <!-- <nav>
         <ul class="main-nav">
             <li><img src="resources/img/yarn.png"> </li>
             <li><a href="#home">Home</a></li>
             <li><a href="#howtosec">How it works</a></li>
             <li><a href="#shop">Shop</a></li>
             <li><a href="#contact-sec">Contact Me</a></li>
-    </nav>
-               
-    <header> 
-        <div class= "hero-pic">
-            <div class="header-text">
-                <h1>STITCHED</h1>
-                <h2>fashion made easy</h2>
-            </div> 
-            <div class=arrowButton>
-                    <img src="resources/img/arrowicon.png">
-            </div>  
-        </div>
-    </header>
-    </div>
-    <section class="howto" id="howtosec">
-        <div class= "sec2head">
-        <h3>HOW IT WORKS</h3>
-        </div>
-        <div class="steps-container">
-            <div class="step one button" >
-                <h4><a href="#">1</a></h4>
-            </div>
-            <div class="step two button">
-                <h4><a href="#">2</a></h4>
-            </div>
-            <div class="step three button">
-                <h4><a href="#">3</a></h4>
-            </div>
+    </nav> -->
 
-        </div>
-                <!-- <h4>Love it or list it <br> (not really!)</h4> -->
-        </div>
-    </section>
+        <header>
+            <div class="hero-pic">
+                <nav>
+                    <ul class="main-nav">
+                        <li><img src="resources/img/yarn.png"> </li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#howtosec">How it works</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#contact-sec">Contact Me</a></li>
+                </nav>
+                <div class="header-text">
+                    <h1>Bored Out Of Your Mind?</h1>
+                    <h2>lets do something about it!</h2>
+                </div>
+                <div class=arrowButton>
+                    <img src="resources/img/arrowicon.png">
+                </div>
+            </div>
+        </header>
+    </div>
     <section class="shopsec" id="shop">
         <div class="shopheader">
-            <h5>SHOP</h5>
+            <h5>EAT SOMETHING NEAT!</h5>
         </div>
-        <div class="shopgrid"> 
+        <div class="shopgrid">
             <div class="sgrid A">
-                <img src="resources/img/gridpic1.jpg" alt="">
+                <img src="resources/img/gridpic1.jpeg" alt="">
+                <p class="gridname">CHEESY PIZZA</p>
             </div>
             <div class="sgrid B">
-                <img src="resources/img/gridpic2.jpg" alt="">
+                <img src="resources/img/gridpic2.jpeg" alt="">
+                <p class="gridname">COLD ICE CREAM</p>
             </div>
             <div class="sgrid C">
-                <img src="resources/img/gridpic3.jpg" alt="">
+                <img src="resources/img/gridpic3.jpeg" alt="">
+                <p class="gridname">REFRESHING SALAD</p>
             </div>
             <div class="sgrid D">
-                <img src="resources/img/gridpic4.jpg" alt="">
+                <img src="resources/img/gridpic4.jpeg" alt="">
+                <p class="gridname">SPICY CURRY</p>
             </div>
         </div>
-        <div class="shopgrid2"> 
+        <div class="shopgrid2">
             <div class="sgrid E">
-                <img src="resources/img/gridpic5.jpg" alt="">
+                <img src="resources/img/gridpic5.jpeg" alt="">
+                <p class="gridname">FRENCH TOAST</p>
+
             </div>
             <div class="sgrid F">
-                <img src="resources/img/gridpic6.jpg" alt="">
+                <img src="resources/img/gridpic6.jpeg" alt="">
+                <p class="gridname">BOOZY COCKTAILS</p>
             </div>
             <div class="sgrid G">
-                <img src="resources/img/gridpic7.jpg" alt="">
+                <img src="resources/img/gridpic7.jpeg" alt="">
+                <p class="gridname">MEATY PASTA</p>
             </div>
             <div class="sgrid H">
-                <img src="resources/img/gridpic8.jpg" alt="">
+                <img src="resources/img/gridpic8.jpeg" alt="">
+                <p class="gridname">FLUFFY DONUTS</p>
+            </div>
+        </div>
+        <div class="shopgrid">
+            <div class="sgrid A">
+                <img src="resources/img/gridpic9.jpeg" alt="">
+                <p class="gridname">FLAKY CROSSAINT</p>
+            </div>
+            <div class="sgrid B">
+                <img src="resources/img/gridpic10.jpeg" alt="">
+                <p class="gridname">FRUITY SMOOTHIE</p>
+            </div>
+            <div class="sgrid C">
+                <img src="resources/img/gridpic11.jpeg" alt="">
+                <p class="gridname">CRISPY BURGER</p>
+            </div>
+            <div class="sgrid D">
+                <img src="resources/img/gridpic12.jpeg" alt="">
+                <p class="gridname">COZY RAMEN BOWL</p>
+            </div>
+        </div>
+        <div class="shopgrid2">
+            <div class="sgrid E">
+                <img src="resources/img/gridpic13.jpeg" alt="">
+                <p class="gridname">SOUR CANDY</p>
+            </div>
+            <div class="sgrid F">
+                <img src="resources/img/gridpic14.jpeg" alt="">
+                <p class="gridname">WARM FRIED RICE</p>
+            </div>
+            <div class="sgrid G">
+                <img src="resources/img/gridpic16.jpeg" alt="">
+                <p class="gridname">CREAMY LATTE</p>
+            </div>
+            <div class="sgrid H">
+                <img src="resources/img/gridpic15.jpeg" alt="">
+                <p class="gridname">HEALTHY HUMMUS</p>
             </div>
         </div>
     </section>
- 
+    <section class="howto" id="howtosec">
+        <h3>HOW ABOUT SOME ENTERTAINMENT?</h3>
+
+        <div class="sec2head">
+
+            <div class="steps-container">
+                <div class="step one">
+                    <p class="caption">music for an epic dance party</p>
+
+                   
+                    <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX0kbJZpiYdZl" width="100%"
+                        height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+                </div>
+                <div class="step two">
+                    <p class="caption">or...</p>
+                    <iframe width="780" height="439" src="https://www.youtube.com/embed/BTSH3hxdk_A"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p class="caption">if you want watch something sweet</p>
+                </div>
+                <div class="step three button">
+                    <!-- <h4><a href="#">3</a></h4> -->
+                    <!-- <img class="icon-pic" src="resources/img/music.png" alt=""> -->
+                </div>
+            </div>
+
+        </div>
+        <!-- <h4>Love it or list it <br> (not really!)</h4> -->
+        </div>
+    </section>
+    <section class="adventure" id="adventure-sec">
+        <h6>Still Bored?</h6>
+        <h7>Lets go on an Adventure!</h7>
+
+        <div id="images">
+        </div>
+        <div class="story" id="text">
+        </div>
+
+        <input id="input" onkeypress="submitDogName(this)" placeholder='Type Your Dogs Name and Enter to Begin'>
+        <div id="buttonBox">
+        </div>
+    </section>
+
+
     <section class="contact" id="contact-sec">
-        <button  onclick="sendNotif()"> Come Back!</button>
+
+        <button onclick="sendNotif()"> Come Back!</button>
         <p id="btn"></p>
     </section>
-  
 
-<script src="resources/js/script.js" ></script>
-<script>
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function() {
-          navigator.serviceWorker.register('/push-worker.js').then(function(registration) {
-            // Registration was successful
-            console.log('ServiceWorker registration successful with scope: ', registration.scope);
-          }, function(err) {
-            // registration failed :(
-            console.log('ServiceWorker registration failed: ', err);
-          });
-        });
-      }
+
+    <script src="resources/js/script.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/push-worker.js').then(function (registration) {
+                    // Registration was successful
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function (err) {
+                    // registration failed :(
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
     </script>
     <script>
-    sendNotif = () => {
-        {
-            UA.then(sdk => {
+        sendNotif = () => {
+            {
+                UA.then(sdk => {
                     sdk.register().then(console.log('you are registered'))
-            })
-        }
+                })
+            }
 
-    }
+        }
     </script>
     <!-- <script>
 
@@ -159,21 +248,21 @@
     <script>
         UA.then(sdk => {
             sdk.plugins.load('html-prompt', 'https://aswpsdkus.com/notify/v1/ua-html-prompt.min.js', {
-                appearDelay: 5000, 
-                disappearDelay: 17000,
+                appearDelay: 5000,
+                disappearDelay: 170000,
                 position: 'bottom',
                 askAgainDelay: 300,
 
                 i18n: {
-               
-               en:{
-                  title: 'Kick your Boredom',
-                  message: 'Subscribe to be notified of fun this to kill your boredom and indecison!',
-                  accept: 'yes! lets have fun!',
-                  deny: 'no i love boredom'
-                   }
-          
-      }
+
+                    en: {
+                        title: 'Kick Your Boredom',
+                        message: 'With our constantly evolving media, you will never be bored again!',
+                        accept: 'Yes! lets have fun!',
+                        deny: 'No, I enjoy living in misery'
+                    }
+
+                }
 
 
             })
@@ -209,4 +298,5 @@
     </script> -->
 
 </body>
+
 </html>
