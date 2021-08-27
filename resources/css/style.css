@@ -682,6 +682,22 @@ h1 {
     font-size: 250%;
     font-weight: 400;
 }
+iframe {
+    width: 350px;
+    height: 197px;
+}
+
+h3, h5, h6 { 
+    font-size: 200%;
+
+}
+
+h7{
+    font-size: 140%;
+}
+.story{
+    font-size: 20px;
+}
 /* --------------CONTACT SECTION----------------- */
 .contact {
     align-items: flex-end;
@@ -740,20 +756,36 @@ h1 {
     font-size: 250%;
     font-weight: 400;
 }
+iframe {
+    width: 350px;
+    height: 197px;
+}
+
+h3, h5, h6 { 
+    font-size: 200%;
+
+}
+
+h7{
+    font-size: 140%;
+}
+.story{
+    font-size: 20px;
+}
 /* --------------CONTACT SECTION----------------- */
 .contact {
-    align-items: flex-end;
-    height: 30vh;
+    /* align-items: flex-end; */
+    height: 50vh;
 }
 
 button {
-    width: 40%;
-    font-size: 120%;
+    width: 90%;
+    /* font-size: 100%; */
     margin-top: 10%;
     text-align: center;
 }
 #btn {
-    font-size: 200%;
+    font-size: 120%;
 
 }
 
