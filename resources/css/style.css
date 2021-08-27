@@ -617,23 +617,15 @@ input {
     }
 }
 
-
 /* ----------------------------------------------- */
-/* POP-UP NOTIFICATION*/ 
+/* AIRSHIP ALERT NOTIFICATION*/ 
 /* ----------------------------------------------- */
-
 
 .airship-alert {
     background-color: white;
     border: 5px solid #ec0a86;
     border-radius: 10px 10px 10px 10px !important;
-    
-}
-.airship-alert-body {
-    /* background-color: black; */
-    /* border:3px solid #ec0a86; */
-    /* font-size: 20px; */
-
+  
 }
 .airship-alert-title {
     font-size: 25px;
@@ -644,7 +636,6 @@ input {
     color: #ec0a86;
     text-align: center;
 }
-
 .airship-alert-message {
     font-size: 16px;
     color: white;
