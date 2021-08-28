@@ -52,7 +52,7 @@ var scenario = {
     text:  "Your best friend and you are on vacation! It's been a long time since you spent time together and you're very excited. You decide to go on a scenic hike in the woods together. What is your friend's name?\n",
   },
   two: {
-    image: "https://s9.postimg.org/9p8m7v1u7/6899639786_d517c4cce3_z.jpg", //house
+    image: "https://s9.postimg.org/9p8m7v1u7/6899639786_d517c4cce3_z.jpg", 
     text: "Your're both having a great time. The weather is beautiful. Suddenly, Your friend pulls on your arm. You both hear dogs barking and scratching at the door and see an old abandoned house. The dogs busts through the door and now it's wide open. What do you want to do?",
     buttons: [["Run back home to safety!", "advanceTo(scenario.three)"],["Check out the house. I love a mystery!", "advanceTo(scenario.four)"]]
   },
@@ -78,7 +78,7 @@ var scenario = {
   },
   seven: {
     image: "https://s6.postimg.org/kz5m1cnkh/2919478782_c343d14be6_b.jpg",
-    text: "You lock te basement door behind you as you rush downstairs. Good thing because there's an armmed man banging on the door now. Your friend is happy to see you and hugs you. You both see the entry to a hidden tunnel. A sign says 'All your dreams will come true if you make it alive' What do you do?",
+    text: "You lock the basement door behind you as you rush downstairs. Good thing because there's an armed man banging on the door now. Your friend is happy to see you and hugs you. You both see the entry to a hidden tunnel. A sign says 'All your dreams will come true if you make it alive' What do you do?",
     buttons: [["Enter the tunnel, obvoiusly.", "advanceTo(scenario.eight)"],["Hide in the closet. The tunnel seems too dangerous", "advanceTo(scenario.nine)"]]
   },
   eight: {
